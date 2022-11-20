@@ -31,7 +31,7 @@ router.route('/')
         const newVideo = {
          id: uuidv4(),
          title: req.body.title,
-         channel: "",
+         channel: "Mohan Muruge",
          image: `${API_URL}:${PORT}/images/image9.jpeg`,
          description: req.body.description,
          views: 0,
